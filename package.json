@@ -1,6 +1,6 @@
 {
-  "name": "stone-theme-vscode",
-  "displayName": "Stone Theme",
+  "name": "sunset-theme-vscode",
+  "displayName": "Sunset Theme",
   "description": "An sunset dark theme",
   "version": "0.0.2",
   "publisher": "isfopo",
@@ -19,7 +19,7 @@
   },
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#141322",
+    "color": "#A98AB5",
     "theme": "dark"
   },
   "categories": [
