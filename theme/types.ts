@@ -16,11 +16,11 @@ export interface Theme {
 
 export interface CoreColors {
   primary: string
-  secondary: string
-  tertiary: string
-  neutral: string
-  neutralVariant: string
-  error: string
+  secondary?: string
+  tertiary?: string
+  neutral?: string
+  neutralVariant?: string
+  error?: string
 }
 
 export interface ExtendedColor {
@@ -32,16 +32,19 @@ export interface ExtendedColor {
 
 export interface Palettes {
   primary: Palette
-  secondary: Palette
-  tertiary: Palette
-  neutral: Palette
-  'neutral-variant': Palette
+  secondary?: Palette
+  tertiary?: Palette
+  neutral?: Palette
+  'neutral-variant'?: Palette
 }
 
 export interface Schemes {
   dark: Scheme
-  'dark-medium-contrast': Scheme
-  'dark-high-contrast': Scheme
+  'dark-medium-contrast'?: Scheme
+  'dark-high-contrast'?: Scheme
+  light?: Scheme
+  'light-medium-contrast'?: Scheme
+  'light-high-contrast'?: Scheme
 }
 
 export interface Palette {

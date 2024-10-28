@@ -18,9 +18,9 @@ import { yaml } from './languages/yaml'
 const theme = {
   $schema: 'vscode://schemas/color-theme',
   author: 'Isaac Poole',
-  name: 'Stone',
+  name: 'Sunset',
   colorSpaceName: 'sRGB',
-  semanticClass: 'theme.dark.stone',
+  semanticClass: 'theme.dark.sunset',
   colors: {
     ...workbenchColors,
     ...gitColors,
@@ -54,7 +54,7 @@ const write = async () => {
   try {
     await fs.mkdir(dist, { recursive: true })
     await fs.writeFile(
-      path.resolve(process.cwd(), 'dist/stone.json'),
+      path.resolve(process.cwd(), 'dist/sunset.json'),
       JSON.stringify(theme, null, 2),
     )
   } catch {

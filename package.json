@@ -1,8 +1,8 @@
 {
   "name": "stone-theme-vscode",
   "displayName": "Stone Theme",
-  "description": "An earthy dark theme",
-  "version": "0.0.17",
+  "description": "An sunset dark theme",
+  "version": "0.0.0",
   "publisher": "isfopo",
   "license": "ISC",
   "engines": {
@@ -11,11 +11,11 @@
     "npm": "10.x.x"
   },
   "bugs": {
-    "url": "https://github.com/isfopo/stone-theme/issues"
+    "url": "https://github.com/isfopo/sunset-theme/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isfopo/stone-theme"
+    "url": "https://github.com/isfopo/sunset-theme"
   },
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -28,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "stone",
+        "label": "sunset",
         "uiTheme": "vs-dark",
-        "path": "./dist/stone.json"
+        "path": "./dist/sunset.json"
       }
     ]
   },
