@@ -1,5 +1,5 @@
 /**
- * Stone Theme Color Variables
+ * Sunset Theme Color Variables
  *
  * Theming with color variables should be handled by element groups. For example the
  * background value shouldn't be set individually for each option, instead theme
